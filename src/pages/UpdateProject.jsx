@@ -49,7 +49,7 @@ const UpdateProject = () => {
   useEffect(() => {
     const getProject = async () => {
       await axios
-        .get(`http://localhost:4000/api/v1/project/get/${id}`, {
+        .get(`https://websitebackend-production-97ac.up.railway.app/api/v1/project/get/${id}`, {
           withCredentials: true,
         })
         .then((res) => {
