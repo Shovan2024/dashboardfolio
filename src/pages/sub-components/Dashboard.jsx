@@ -161,10 +161,10 @@ const Dashboard = () => {
                         <TableRow>
                           <TableHead>Title</TableHead>
                           <TableHead className="hidden md:table-cell">
-                            Stack
+                            Type
                           </TableHead>
                           <TableHead className="hidden md:table-cell">
-                            Deployed
+                            Completed
                           </TableHead>
                           <TableHead className="md:table-cell">
                             Update
