@@ -57,7 +57,7 @@ export const getAllMessages = () => async (dispatch) => {
   dispatch(messageSlice.actions.getAllMessagesRequest());
   try {
     const response = await axios.get(
-      "https://websitebackend-production-97ac.up.railway.app/api/v1/message/getall",
+      "https://websitebackend-production-7b1e.up.railway.app/api/v1/message/getall",
       { withCredentials: true }
     );
     dispatch(
@@ -75,7 +75,7 @@ export const deleteMessage = (id) => async (dispatch) => {
   dispatch(messageSlice.actions.deleteMessageRequest());
   try {
     const response = await axios.delete(
-      `https://websitebackend-production-97ac.up.railway.app/api/v1/message/delete/${id}`,
+      `https://websitebackend-production-7b1e.up.railway.app/api/v1/message/delete/${id}`,
       {
         withCredentials: true,
       }
